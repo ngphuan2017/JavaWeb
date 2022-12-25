@@ -8,8 +8,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreatedUserDTO {
-    private Integer userId;
-    private String username;
-    private String phone;
+public class UpdateProductDTO {
+    private String productName;
+    private Double price;
+    private Integer quantity;
+    private Integer categoryId;
 }

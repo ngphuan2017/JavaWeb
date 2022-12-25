@@ -8,8 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreatedUserDTO {
-    private Integer userId;
+public class UpdateUserDTO {
     private String username;
     private String phone;
 }

@@ -1,4 +1,4 @@
-package r2s.SpringBoot.dto.request;
+package JavaWeb.SpringBoot.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

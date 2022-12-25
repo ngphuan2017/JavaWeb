@@ -1,4 +1,4 @@
-package r2s.SpringBoot;
+package JavaWeb.SpringBoot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

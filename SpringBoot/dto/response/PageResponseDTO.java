@@ -1,4 +1,4 @@
-package r2s.SpringBoot.dto.response;
+package JavaWeb.SpringBoot.dto.response;
 
 import lombok.Data;
 
