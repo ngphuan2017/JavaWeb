@@ -9,4 +9,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class UpdateCategoryDTO {
     private String categoryName;
+    private String categoryImg;
 }

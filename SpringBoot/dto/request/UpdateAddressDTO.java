@@ -10,5 +10,7 @@ import lombok.NoArgsConstructor;
 public class UpdateAddressDTO {
     private String country;
     private String city;
+    private String address;
+    private String district;
     private String street;
 }

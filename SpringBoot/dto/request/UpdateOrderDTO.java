@@ -10,7 +10,6 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UpdateOrderDTO {
-    private Date createdDate;
-    private Date modifiedDate;
-    private String OrderStatus;
+    private String totalPrice;
+    private Integer status;
 }

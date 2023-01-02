@@ -1,5 +1,6 @@
 package JavaWeb.SpringBoot.dto.request;
 
+import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -10,9 +11,6 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreatedCartDTO {
-    private Integer cartId;
-    private Integer productId;
-    private Date createdDate;
-    private Date modifiedDate;
-    private String cartStatus;
+    private String price;
+    private Integer status;
 }

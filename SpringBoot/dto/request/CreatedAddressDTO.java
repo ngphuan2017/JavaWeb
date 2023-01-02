@@ -7,9 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class CreadAddressDTO {
-    private Integer addressId;
+public class CreatedAddressDTO {
     private String country;
     private String city;
+    private String address;
+    private String district;
     private String street;
 }

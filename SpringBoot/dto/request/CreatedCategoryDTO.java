@@ -1,5 +1,6 @@
 package JavaWeb.SpringBoot.dto.request;
 
+import jakarta.persistence.Column;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,6 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class CreatedCategoryDTO {
-    private Integer categoryId;
     private String categoryName;
+    private String categoryImg;
 }

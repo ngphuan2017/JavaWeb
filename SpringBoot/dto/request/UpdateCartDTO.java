@@ -10,8 +10,6 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UpdateCartDTO {
-    private Integer productId;
-    private Date createdDate;
-    private Date modifiedDate;
-    private String cartStatus;
+    private String price;
+    private Integer status;
 }
